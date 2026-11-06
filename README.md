@@ -1,5 +1,9 @@
 # Card Fraud Detection
 
+**Live demo:** https://card-fraud-detection.vercel.app (drag the review-capacity slider and watch fraud caught, precision and euros saved change)
+
+![Alert queue simulator](docs/site.png)
+
 Fraud detection on 284,807 real card transactions, evaluated the way a fraud operation runs: analysts can review only so many alerts, so what matters is how much fraud lands in the review queue, how much money that stops, and where the alert threshold should sit once review costs are counted.
 
 ![Fraud caught by review workload](docs/capacity.png)
